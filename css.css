@@ -1,0 +1,157 @@
+.CurrentValues {
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-flow: column;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.DiceBox {
+    margin: 10px;
+    background-color:rgb(224, 242, 133);
+    width: 100px;
+    height: 100px;
+    animation-duration: 0.25s;
+    text-align: center;
+    font-size: 100%;
+    animation-name: B2;
+    border-radius: 10px;
+}
+
+
+.DiceBox2 {
+    margin: 10px;
+    background-color:rgb(224, 242, 133);
+    width: 100px;
+    height: 100px;
+    animation-duration: 0.25s;
+    text-align: center;
+    font-size: 100%;
+    animation-name: B2;
+    border-radius: 10px;
+}
+
+
+.DiceBox:hover {
+    background-color:rgb(224, 242, 133);
+    border-color: black;
+    width: 125px;
+    height: 125px;
+    cursor: pointer;
+    animation-duration: 0.5s;
+    animation-name: B;
+    border-radius: 35px;
+    font-size: 150%;
+}
+
+  @keyframes B {
+    from {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 100%;
+    }
+  
+    to {
+        width: 125px;
+        height: 125px;
+        border-radius: 35px;
+        font-size: 150%;
+    }
+  }
+
+  @keyframes B2 {
+    from {
+        width: 125px;
+        height: 125px;
+        border-radius: 35px;
+        font-size: 150%;
+    }
+    to {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        font-size: 100%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .ComputerDiceDive {
+    position: absolute;
+    right: 10vw;
+    top: 12vh;
+    /* top: 1000px; */
+    align-items:flex-end;
+    flex-direction: column;
+    flex-flow: column;
+
+}
+
+
+
+
+
+
+
+/* roll button */
+
+
+.MainButton {
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: beige;
+    cursor:pointer;
+}
+
+.CurrentTurn {
+    text-align: center;
+    width: 95%;
+}
+
+
+.AllDices1 {
+    position: absolute;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    left: 35%;
+    top: 20%;
+    
+    background-color: rgba(231, 220, 99, 0.249);
+
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-flow: column;
+}
+
+.AllDices2 {
+    position: absolute;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    left: 53%;
+    top: 20%;
+    background-color: rgba(231, 220, 99, 0.249);
+
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    flex-flow: column;
+}
