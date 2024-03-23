@@ -109,6 +109,7 @@ body {
 
 
 
+
 /* roll button */
 
 
@@ -119,6 +120,14 @@ body {
     border-radius: 10px;
     background-color: beige;
     cursor:pointer;
+}
+
+.Timer {
+    position: absolute;
+    margin: 10px;
+    left: 10px;
+    top: 0px;
+    font-size: 30px;
 }
 
 .CurrentTurn {
